@@ -927,7 +927,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-consult .video {
   display: table;
-  width: 50%;
+  width: 40%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -952,7 +952,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-consult .choose {
-    width: 100%;
+    width: 50%;
     padding: 4em 1em;
   }
 }
