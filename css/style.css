@@ -28,7 +28,7 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.offcanvas #page {
+.off #page {
   overflow: hidden;
   position: absolute;
 }
@@ -701,7 +701,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .chart span strong {
   display: block;
 }
-.chart canvas {
+.chart  {
   position: absolute;
   left: 0;
   top: 0;
@@ -1288,6 +1288,41 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+#formul input, form textarea{
+  border: 1.5px solid gray;
+  margin: 3px  0;
+  padding: 20px;
+  outline: none;
+  font-size:16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 140%;
+  height: 8px;
+  border-radius: 10px;
+}
+#formul textarea{
+  border: 1.5px solid gray;
+  margin: 3px  0;
+  padding: 20px;
+  outline: none;
+  font-size:16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 150%;
+  height: 35vh;
+  border-radius: 10px;
+}
+#formul button{
+  padding: 5px;
+  font-size: 20px;
+  background-color: #FF9000;
+  width: 130px;
+  height: 45px;
+  transform: translate(230px, 10px);
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

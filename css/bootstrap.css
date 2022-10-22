@@ -32,13 +32,13 @@ summary {
 }
 
 audio,
-canvas,
+,
 progress,
 video {
   display: inline-block;
   vertical-align: baseline;
   width: 200px;
-  height: 40vh;
+  height: 30vh;
 }
 
 audio:not([controls]) {
