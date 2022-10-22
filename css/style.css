@@ -1297,7 +1297,7 @@ input[type="text"] {
   outline: none;
   font-size:16px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  width: 140%;
+  width: 90%;
   height: 8px;
   border-radius: 10px;
 }
@@ -1318,7 +1318,7 @@ input[type="text"] {
   background-color: #FF9000;
   width: 130px;
   height: 45px;
-  transform: translate(230px, 10px);
+  transform: translate(200px, 10px);
   cursor: pointer;
   color: white;
   border: none;
