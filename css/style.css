@@ -1325,4 +1325,23 @@ input[type="text"] {
   border-radius: 15px;
 }
 
+.model{
+  
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .model{
+    width: 50vw;
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+  }
+}
+
+
 /*# sourceMappingURL=style.css.map */
